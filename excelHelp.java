@@ -1,3 +1,17 @@
+<dependency>
+   <groupId>org.hibernate</groupId>
+   <artifactId>hibernate-entitymanager</artifactId>
+   <version>${hibernate.version}</version>
+</dependency>
+If you have a NoClassDefFound exception a good starting point is to look if the missing class is in one of your dependency jars. If not, add the missing dependency.
+
+The springframework-orm POM refers to hibernate-entitymanager 4.2.8.Final (see http://central.maven.org/maven2/org/springframework/spring-orm/4.0.1.RELEASE/spring-orm-4.0.1.RELEASE.pom) You depend on 4.1.*.
+
+
+
+
+
+
 Customer james = customers.stream()
   .filter(customer -> "James".equals(customer.getName()))
   .findAny()
