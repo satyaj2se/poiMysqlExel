@@ -7,3 +7,18 @@ Customer james = customers.stream()
 java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFactoryImpl incompatible with javax.xml.stream.XMLEventFactory
 
 Caused by: java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFactoryImpl
+
+<!-- https://mvnrepository.com/artifact/stax/stax-api -->
+<dependency>
+    <groupId>stax</groupId>
+    <artifactId>stax-api</artifactId>
+    <version>1.0.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.xml.bind/jsr173_api -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jsr173_api</artifactId>
+    <version>1.0</version>
+</dependency>
+
