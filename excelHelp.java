@@ -22,3 +22,4 @@ Caused by: java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFact
     <version>1.0</version>
 </dependency>
 
+amework.beans.factory.BeanCreationException: Error creating bean with name 'entityManager' defined in class path resource [org/kpcc/ws/ppcl/config/PPCLDatasourceConnectorConfig.class]: Invocation of init method failed; nested exception is java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFactoryImpl incompatible with javax.xml.stream.XMLEventFactory
