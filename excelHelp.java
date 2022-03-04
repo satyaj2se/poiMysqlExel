@@ -3,6 +3,13 @@ Customer james = customers.stream()
   .findAny()
   .orElse(null);
 
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-orm</artifactId>
+	<version>5.0.0.RELEASE</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
+
 
 <dependency>
     <groupId>org.javassist</groupId>
