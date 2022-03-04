@@ -3,6 +3,9 @@ Customer james = customers.stream()
   .findAny()
   .orElse(null);
 
+
+org.hibernate.jpa.HibernatePersistenceProvider class not found
+
 <dependency>
 	<groupId>org.springframework</groupId>
 	<artifactId>spring-orm</artifactId>
