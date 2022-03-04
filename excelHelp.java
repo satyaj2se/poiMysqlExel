@@ -5,3 +5,5 @@ Customer james = customers.stream()
 
 
 java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFactoryImpl incompatible with javax.xml.stream.XMLEventFactory
+
+Caused by: java.lang.ClassCastException: com.ibm.xml.xlxp2.api.stax.XMLEventFactoryImpl
