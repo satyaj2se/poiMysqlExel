@@ -1,3 +1,8 @@
+Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManager' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
+
+
+
+
 <dependency>
    <groupId>org.hibernate</groupId>
    <artifactId>hibernate-entitymanager</artifactId>
