@@ -2,13 +2,15 @@ Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFa
 java
 lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
 
-
-
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
 <dependency>
-   <groupId>org.hibernate</groupId>
-   <artifactId>hibernate-entitymanager</artifactId>
-   <version>${hibernate.version}</version>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-entitymanager</artifactId>
+    <version>4.2.1.Final</version>
 </dependency>
+
+
+
 If you have a NoClassDefFound exception a good starting point is to look if the missing class is in one of your dependency jars. If not, add the missing dependency.
 
 The springframework-orm POM refers to hibernate-entitymanager 4.2.8.Final (see http://central.maven.org/maven2/org/springframework/spring-orm/4.0.1.RELEASE/spring-orm-4.0.1.RELEASE.pom) You depend on 4.1.*.
