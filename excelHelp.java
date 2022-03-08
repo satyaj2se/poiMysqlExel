@@ -2,6 +2,9 @@ Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFa
 java
 lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
 
+com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle /favicon.ico has not been defined.
+
+
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
 <dependency>
     <groupId>org.hibernate</groupId>
