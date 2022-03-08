@@ -9,6 +9,8 @@ lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpa
     <version>4.2.1.Final</version>
 </dependency>
 
+Error while adding servlet mapping --> /*.
+
 org.hibernate.jpa.HibernatePersistenceProvider
 
 
