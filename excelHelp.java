@@ -9,6 +9,8 @@ lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpa
     <version>4.2.1.Final</version>
 </dependency>
 
+org.hibernate.jpa.HibernatePersistenceProvider
+
 
 
 If you have a NoClassDefFound exception a good starting point is to look if the missing class is in one of your dependency jars. If not, add the missing dependency.
