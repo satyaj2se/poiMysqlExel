@@ -11,6 +11,8 @@ lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpa
 
 Error while adding servlet mapping --> /*.
 
+ibm-web-ext.xmi
+
 org.hibernate.jpa.HibernatePersistenceProvider
 
 
