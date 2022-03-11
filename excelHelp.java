@@ -1,9 +1,4 @@
-Failed to instantiate [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean]: Factory method 'entityManager' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
-java
-lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
-
-com.ibm.ws.webcontainer.internal.WebContainer handleRequest SRVE0255E: A WebGroup/Virtual Host to handle /favicon.ico has not been defined.
-
+https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i-try-to-access-my-wsdl
 
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
 <dependency>
