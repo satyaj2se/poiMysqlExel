@@ -3,6 +3,7 @@ https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i
 Factory method 'routerFunctionMapping' threw exception
 
 java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
+java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
 
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
 <dependency>
