@@ -1,5 +1,7 @@
 https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i-try-to-access-my-wsdl
 
+Caused by: java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactor
+
 
  <dependency>
               <groupId>org.apache.poi</groupId>
