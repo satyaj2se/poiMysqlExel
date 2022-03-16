@@ -1,5 +1,28 @@
 https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i-try-to-access-my-wsdl
 
+
+<dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>3.15</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>3.15</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>ooxml-schemas</artifactId>
+        <version>1.3</version>
+    </dependency>
+
+
+
+
+
 Factory method 'routerFunctionMapping' threw exception
 
 java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
