@@ -1,23 +1,18 @@
 https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i-try-to-access-my-wsdl
 
 
-<dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi</artifactId>
-        <version>3.15</version>
-    </dependency>
+ <dependency>
+              <groupId>org.apache.poi</groupId>
+              <artifactId>poi</artifactId>
+              <version>3.10-FINAL</version>
+           </dependency>
 
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi-ooxml</artifactId>
-        <version>3.15</version>
-    </dependency>
 
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>ooxml-schemas</artifactId>
-        <version>1.3</version>
-    </dependency>
+        <dependency>
+             <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${apache.poi.version}</version>
+       </dependency>
 
 
 
