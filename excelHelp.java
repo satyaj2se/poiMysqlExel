@@ -3,6 +3,7 @@ https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i
 Caused by: java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactor
 
 Error 404: SRVE0295E: Error reported: 404
+	ibm-web-ext.xml
 
 
  <dependency>
