@@ -4,28 +4,31 @@ Caused by: java.lang.ClassCastException: org.apache.xalan.processor.TransformerF
 
 Error 404: SRVE0295E: Error reported: 404
 	ibm-web-ext.xml
-
-
  <dependency>
-              <groupId>org.apache.poi</groupId>
-              <artifactId>poi</artifactId>
-              <version>3.10-FINAL</version>
-           </dependency>
-
-
-        <dependency>
-             <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>${apache.poi.version}</version>
-       </dependency>
-
-
-
-
-
-Factory method 'routerFunctionMapping' threw exception
-
-java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.0</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.0</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>javax.xml.stream</groupId>
+        <artifactId>stax-api</artifactId>
+        <version>1.0-2</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.11.0</version>
+    </dependency>
+    
+	
+	java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
 java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactory
 
 Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.function.support.RouterFunctionMapping]
