@@ -4,6 +4,12 @@ Caused by: java.lang.ClassCastException: org.apache.xalan.processor.TransformerF
 
 
 java.lang.NoClassDefFoundError: org.apache.poi.ooxml.util.DocumentHelper (initialization failure)
+	
+	<dependency>
+        <groupId>xerces</groupId>
+        <artifactId>xercesImpl</artifactId>
+        <version>2.12.0</version>
+    </dependency>
 
 Error 404: SRVE0295E: Error reported: 404
 	ibm-web-ext.xml
