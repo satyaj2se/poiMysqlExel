@@ -1,6 +1,6 @@
 https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i-try-to-access-my-wsdl
 
-Caused by: java.lang.ClassCastException: org.apache.xalan.processor.TransformerFactoryImpl incompatible with javax.xml.transform.TransformerFactor
+java.lang.IllegalArgumentException: Not supported: http://javax.xml.XMLConstants/property/accessExternalStylesheet
 
 
 java.lang.NoClassDefFoundError: org.apache.poi.ooxml.util.DocumentHelper (initialization failure)
