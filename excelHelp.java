@@ -2,6 +2,8 @@ https://stackoverflow.com/questions/57286365/why-do-i-get-log-is-disabled-when-i
 
 java.lang.IllegalArgumentException: Not supported: http://javax.xml.XMLConstants/property/accessExternalStylesheet
 
+https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-logging-log4j2
+
 
 java.lang.NoClassDefFoundError: org.apache.poi.ooxml.util.DocumentHelper (initialization failure)
 	
