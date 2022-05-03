@@ -4,6 +4,18 @@ java.lang.IllegalArgumentException: Not supported: http://javax.xml.XMLConstants
 
 https://github.com/eugenp/tutorials/tree/master/spring-boot-modules/spring-boot-logging-log4j2
 
+ <resources>
+
+        <resource>
+            <directory>src/main/resources</directory>
+            <targetPath>${project.build.directory}</targetPath>
+            <includes>
+                <include>log4j2.xml</include>
+            </includes>
+        </resource>
+
+    </resources>
+
 
 java.lang.NoClassDefFoundError: org.apache.poi.ooxml.util.DocumentHelper (initialization failure)
 	
