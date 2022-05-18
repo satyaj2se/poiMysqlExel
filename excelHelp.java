@@ -32,6 +32,15 @@ Error 404: SRVE0295E: Error reported: 404
         <artifactId>poi</artifactId>
         <version>5.2.0</version>
         <scope>compile</scope>
+	
+	
+	
+	
+	
+	
+	
+	
+	
     </dependency>
     <dependency>
         <groupId>org.apache.poi</groupId>
@@ -138,3 +147,54 @@ amework.beans.factory.BeanCreationException: Error creating bean with name 'enti
 
 
 java.lang.NoClassDefFoundError: org/springframework/orm/jpa/vendor/SpringHibernateJpaPersistenceProvider
+
+
+
+
+
+<configuration>
+	<property resource="application.properties" />
+	<property name="PATH" value="${logging.path}" />
+	<property name="FILEINFO" value="${logging.file}" />
+
+	<appender name="console"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="file"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${PATH}/${FILEINFO}.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${PATH}/${FILEINFO}.%d{yyyy-MM-dd-HH-mm}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- 30 Days to keep -->
+			<maxHistory>30</maxHistory>
+			<!-- total size of all archive files, if total size > 10MB, it will delete 
+				old archived file -->
+			<totalSizeCap>10MB</totalSizeCap>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.kpcc.ws">
+		<appender-ref ref="console" />
+	</logger>
+
+
+	<Root additivity="true" level="info">
+		<Appender-ref ref="file" />
+		<AppenderRef ref="STDOUT" />
+	</Root>
+
+</configuration>
